@@ -4,6 +4,8 @@ class TeamPage extends Component {
     render() {
         return (
             <div className="container">
+                <h4 className="teamheader">Specialists</h4>
+                <hr></hr>
                     <div className="row">
                         <div className="col-md-4 col-sm-4">
                             <div className="team-member">
@@ -23,7 +25,6 @@ class TeamPage extends Component {
                             </div>
                             <div className="team-title">
                                 <h5>Elliot Friedman</h5>
-                                <hr></hr>
                                 <span>Smart Contract Specialist <br></br> Hired by IBM in 2019</span>
                             </div>
                         </div>
@@ -45,7 +46,6 @@ class TeamPage extends Component {
                             </div>
                             <div className="team-title">
                                 <h5>Jack Watters</h5>
-                                <hr></hr>
                                 <span>Founder | CEO</span>
                             </div>
                         </div>
@@ -67,7 +67,6 @@ class TeamPage extends Component {
                             </div>
                             <div className="team-title">
                                 <h5>Curtis Krommenhoek</h5>
-                                <hr></hr>
                                 <span>CO-Founder, Back-End Developer</span>
                             </div>
                         </div>

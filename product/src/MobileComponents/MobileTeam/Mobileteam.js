@@ -4,6 +4,8 @@ class MobileTeamPage extends Component {
     render() {
         return (
             <div className="container">
+            <h4 className="teamheader">Specialists</h4>
+            <hr></hr>
                     <div className="row">
                         <div className="col-md-4 col-sm-4">
                             <div className="team-member">
